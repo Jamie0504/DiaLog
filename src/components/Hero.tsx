@@ -13,12 +13,14 @@ export default function Hero() {
           NTU CC0005 · Group 1 · Challenge 3 Disease
         </p>
 
+        <img src="/logo.jpg" alt="DiaLog" className="mx-auto w-32 h-32 sm:w-40 sm:h-40 rounded-3xl shadow-2xl mb-6 bg-white/10 backdrop-blur-sm" />
+
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight mb-5">
-          Steady<span className="text-accent-300">Plate</span>
+          Dia<span className="text-sky-300">Log</span>
         </h1>
 
         <p className="text-xl sm:text-2xl font-medium text-brand-100 mb-4">
-          Small steps. Steady plates. Your pace.
+          Your daily dialogue with healthy living.
         </p>
 
         <p className="max-w-2xl mx-auto text-brand-100/90 text-base sm:text-lg leading-relaxed mb-10">

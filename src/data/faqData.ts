@@ -4,17 +4,17 @@ export const faqItems: FAQItem[] = [
   {
     question: 'Is this medical advice?',
     answer:
-      'No. SteadyPlate is a healthy living support tool created for educational purposes. It does not provide medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional for medical concerns.',
+      'No. DiaLog is a healthy living support tool created for educational purposes. It does not provide medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional for medical concerns.',
   },
   {
     question: 'Does this replace glucose monitoring or insulin management?',
     answer:
-      'Absolutely not. SteadyPlate complements your existing healthcare by supporting daily wellbeing habits like meal consistency and self-reflection. It does not track blood sugar, calculate insulin doses, or replace any clinical tools.',
+      'Absolutely not. DiaLog complements your existing healthcare by supporting daily wellbeing habits like meal consistency and self-reflection. It does not track blood sugar, calculate insulin doses, or replace any clinical tools.',
   },
   {
     question: 'Who is this designed for?',
     answer:
-      'SteadyPlate is designed for young adults (age 20–25) living with Type 1 Diabetes who want practical, low-effort support for building consistent, healthy meal routines — especially those with irregular schedules like freelance or part-time workers.',
+      'DiaLog is designed for young adults (age 20–25) living with Type 1 Diabetes who want practical, low-effort support for building consistent, healthy meal routines — especially those with irregular schedules like freelance or part-time workers.',
   },
   {
     question: 'Do I need to create an account?',
@@ -24,7 +24,7 @@ export const faqItems: FAQItem[] = [
   {
     question: 'Can I use this on my phone?',
     answer:
-      'Yes! SteadyPlate is fully responsive and works on any modern mobile browser. No app download required.',
+      'Yes! DiaLog is fully responsive and works on any modern mobile browser. No app download required.',
   },
   {
     question: 'Will you add more meal ideas?',

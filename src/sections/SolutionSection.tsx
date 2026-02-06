@@ -22,7 +22,7 @@ export default function SolutionSection() {
     <section id="solution" className="bg-stone-50">
       <div className="section-container">
         <p className="badge bg-brand-50 text-brand-700 mb-4">Proposed Solution</p>
-        <h2 className="section-title">How SteadyPlate Helps</h2>
+        <h2 className="section-title">How DiaLog Helps</h2>
         <p className="section-subtitle">
           A lightweight, web-based healthy living support platform with two core features
           designed to reduce friction and reinforce positive habits.

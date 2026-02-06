@@ -53,7 +53,7 @@ export default function ReadinessSection() {
               encouragement, it&apos;s easy to slip back into inconsistent patterns.
             </p>
             <p className="text-sm text-slate-600 leading-relaxed">
-              <strong>What this means for our solution:</strong> SteadyPlate is designed with
+              <strong>What this means for our solution:</strong> DiaLog is designed with
               <strong> low-barrier, habit-refinement tools</strong> that support and refine Bobby&apos;s
               existing efforts rather than initiating change from scratch. We meet him where he is:
               already trying, just needing a steadier foundation.

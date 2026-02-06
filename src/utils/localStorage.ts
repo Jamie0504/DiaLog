@@ -1,7 +1,7 @@
 import { HabitLogEntry, WeeklyReflection } from '../types';
 
-const ENTRIES_KEY = 'steadyplate_habit_entries';
-const REFLECTIONS_KEY = 'steadyplate_reflections';
+const ENTRIES_KEY = 'dialog_habit_entries';
+const REFLECTIONS_KEY = 'dialog_reflections';
 
 /* ── Habit Log Entries ────────────────────────────────── */
 

@@ -13,7 +13,7 @@ export default function FAQSection() {
       <div className="section-container">
         <h2 className="section-title text-center">Frequently Asked Questions</h2>
         <p className="section-subtitle text-center mx-auto">
-          Quick answers to common questions about SteadyPlate.
+          Quick answers to common questions about DiaLog.
         </p>
 
         <div className="max-w-2xl mx-auto space-y-3">

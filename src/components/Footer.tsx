@@ -13,8 +13,8 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center justify-center gap-2 text-sm">
-          <span className="text-xl">🍽️</span>
-          <span className="font-bold text-slate-300">SteadyPlate</span>
+          <img src="/icon.jpg" alt="DiaLog" className="w-7 h-7 rounded-md" />
+          <span className="font-bold text-slate-300">Dia<span className="text-sky-400">Log</span></span>
         </div>
 
         <p className="text-xs">
