@@ -2,9 +2,8 @@ import { useState } from 'react';
 
 const links = [
   { label: 'Home', href: '#home' },
-  { label: 'Problem', href: '#persona' },
-  { label: 'Solution', href: '#solution' },
   { label: 'Meal Prep', href: '#meal-prep' },
+  { label: 'Timetable', href: '#timetable' },
   { label: 'Habit Log', href: '#habit-log' },
   { label: 'FAQ', href: '#faq' },
 ];

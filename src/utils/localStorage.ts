@@ -1,7 +1,8 @@
-import { HabitLogEntry, WeeklyReflection } from '../types';
+import { HabitLogEntry, WeeklyReflection, TimetableRow } from '../types';
 
 const ENTRIES_KEY = 'dialog_habit_entries';
 const REFLECTIONS_KEY = 'dialog_reflections';
+const TIMETABLE_KEY = 'dialog_timetable';
 
 /* ── Habit Log Entries ────────────────────────────────── */
 
@@ -56,6 +57,25 @@ export function saveReflection(reflection: WeeklyReflection): void {
 export function getReflectionByWeek(weekKey: string): string {
   const reflections = getReflections();
   return reflections.find((r) => r.weekKey === weekKey)?.text ?? '';
+}
+
+/* ── Timetable ────────────────────────────────────────── */
+
+export function getTimetable(): TimetableRow[] | null {
+  try {
+    const raw = localStorage.getItem(TIMETABLE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveTimetable(rows: TimetableRow[]): void {
+  localStorage.setItem(TIMETABLE_KEY, JSON.stringify(rows));
+}
+
+export function clearTimetable(): void {
+  localStorage.removeItem(TIMETABLE_KEY);
 }
 
 /* ── Image Resize Helper ──────────────────────────────── */

@@ -29,3 +29,9 @@ export interface FAQItem {
   question: string;
   answer: string;
 }
+
+export interface TimetableRow {
+  id: string;
+  time: string;
+  task: string;
+}
