@@ -21,7 +21,7 @@ function saveRows(rows: TimetableRow[]) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(rows));
 }
 
-/* ── Inline-editable cell ─────────────────────────────── */
+/* Inline-editable cell */
 
 function EditableCell({
   value,
@@ -74,7 +74,7 @@ function EditableCell({
   );
 }
 
-/* ── Main section ─────────────────────────────────────── */
+/* Main section */
 
 export default function TimetableSection() {
   const [rows, setRows] = useState<TimetableRow[]>(loadRows);
@@ -107,7 +107,7 @@ export default function TimetableSection() {
       <div className="section-container">
         {/* Header */}
         <p className="badge bg-brand-50 text-brand-700 mb-4">Editable Template</p>
-        <h2 className="section-title">📅 Daily Timetable</h2>
+        <h2 className="section-title">Daily Timetable</h2>
         <p className="section-subtitle">
           Start from this sample and customise it to your own routine.
           Click any cell to edit, and add or remove rows as you like.
@@ -118,7 +118,7 @@ export default function TimetableSection() {
           <p className="text-sm text-amber-800 leading-relaxed">
             <strong>Please note:</strong> This timetable is a <strong>lifestyle support template</strong> and
             does not replace professional medical advice. DiaLog does not prescribe insulin doses or
-            exercise treatment plans. Please follow your clinician&apos;s guidance for medication and
+            exercise treatment plans. Please follow your clinician's guidance for medication and
             exercise adjustments.
           </p>
         </div>
@@ -157,7 +157,7 @@ export default function TimetableSection() {
                     <EditableCell
                       value={row.task}
                       onChange={(v) => updateField(row.id, 'task', v)}
-                      placeholder="Enter task…"
+                      placeholder="Enter task..."
                       className="text-slate-600"
                     />
                   </td>
@@ -185,7 +185,7 @@ export default function TimetableSection() {
             + Add Row
           </button>
           <button onClick={resetToDefault} className="btn-secondary text-sm">
-            ↻ Reset to Sample Template
+            Reset to Sample Template
           </button>
           <span className="text-xs text-slate-400 ml-auto">
             {rows.length} {rows.length === 1 ? 'item' : 'items'} · auto-saved locally
@@ -195,7 +195,7 @@ export default function TimetableSection() {
         {/* Bottom disclaimer */}
         <p className="mt-6 text-xs text-slate-400 max-w-3xl leading-relaxed">
           All content above is editable and stored in your browser only. This template is provided as a
-          starting point — please adapt it to fit your personal routine and medical professional&apos;s recommendations.
+          starting point — please adapt it to fit your personal routine and your medical professional's recommendations.
         </p>
       </div>
     </section>
